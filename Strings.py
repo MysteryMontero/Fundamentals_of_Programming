@@ -15,7 +15,7 @@ print(a,b,c)
 x = 47 # statement
 y = x + 10 # expression
 
-# TYPE Convversion --> to change the data type of a variable#
+# TYPE Conversion --> to change the data type of a variable#
 # Convert floats and numeric strings to an int
 print(int("20"))
 print("30")
@@ -31,7 +31,7 @@ first_name = 'Jane'
 last_name = "Doe"
 # address = ''''''
 
-job = "Physican's Assistant" # Recomended to use double quotes for strings
+job = "Physican's Assistant" # Recommended to use double quotes for strings
 
 ## STRING FUNCTIONS
 # len() --> Returns the number of characters in a string
@@ -60,4 +60,36 @@ print(name[2])
 # Retrieving the character ata  given index
 print(name.index('o')) # returns 6
 print(name.index('e')) # returns the index of first occurrence
+
+## STRING SLICING ##
+emp_name = 'Jane Doe'
+print(emp_name[2:6]) # moves up to 3rd letter and stops at 6th letter
+print(emp_name[0:4])
+print(emp_name[:4])
+print(emp_name[3:])
+print(emp_name[-4:-1]) # moves backwards
+print(emp_name[1:6:2]) # Cuts out J, o, e. Starts with a, goes 6 then skips 1, then goes 6 again and repeat.
+print(emp_name.count('e')) # Counts the number of e's.
+print(emp_name.find('Doe')) # Finds the positions of the word. it is in character 5.
+print(emp_name.replace('Jane', 'John')) # Replaces the word.
+print(emp_name) # Displays name.
+
+emp_name = emp_name.replace('Jane', 'John') # Displays new name.
+print(emp_name)
+
+print('oh' in emp_name) # Checks it 'oh' in in the name. John has 'oh in the name so it is true.
+
+## STRING FORMATTING ##
+student_name = "Alex"
+score = 74
+
+emp_name = 'Alex'
+print("Name: " +student_name+ " " +"Score:" +str(score))
+print("Name: {} Score: {}".format(student_name, score))
+# f- strings
+print(f"Name: {student_name} Score: {score}") # Easiest way to do it.
+print(f"3 times 10 is equal to {3*10}")
 '''
+
+
+

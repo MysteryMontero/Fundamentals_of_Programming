@@ -80,7 +80,7 @@ print(countries)
 
 ### SET Operations
 countries1 = {'Russia', 'China', 'Japan', 'Sudan', 'Ethiopia', 'Greece'}
-print(countries.union(countries1))
+print(countries.union(countries1)) # combines 'countries' and 'countries1' but gets rid of any duplicates and keeps only one.
 print(countries.intersection(countries1))
 
 print(countries.difference(countries1))

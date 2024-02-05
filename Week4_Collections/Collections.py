@@ -149,16 +149,20 @@ set1 ={314, 219, 134}
 list2 = [21, 4, 10, 13, 78, 4, 21]
 set2 = set(list2) # also pass a tuple
 print(set2) # Gets rid of duplicate numbers
-'''
 
+
+# 1.
 tuple1 = ("Car", [34, 23, 8], False, [15, 20, 11])
 print(tuple1[3][1])
-
+# 2.
 list1 = [44, 12, 578, 21, 134, 67]
 print(list1[3:6])
-
+# 3.
 list1 = [5, 10, 15, 20, 75, 100, 50]
 print(list1.index(20))
-list[position] = 200
-
-
+list1[3] = 200
+print(list1)
+# 4.
+tuple2 = (11, [64, 33], 243, 123)
+print(tuple2[1])
+'''

@@ -17,7 +17,7 @@ if height > 120:
         print('Ticket is $12')
 else:
     print('Cannot Ride')
-'''
+
 ## Nested if-else with elif and multiple conditions
 height = int(input('Enter your height in cms: '))
 total_bill = 0
@@ -45,4 +45,13 @@ if height > 120:
     print(f'The total bill is {total_bill}')
 else:
     print('Cannot Ride') # The line up is important as it connects to certain ifs.
+'''
+grade = int(input('Enter your grade: '))
 
+if grade < 60:
+    print('FAILURE')
+else:
+    if grade < 70:
+        if grade < 63:
+            print('D-')
+            

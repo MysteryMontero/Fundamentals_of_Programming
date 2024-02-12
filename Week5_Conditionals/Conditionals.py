@@ -57,6 +57,8 @@ else:
             print('D-')
 
 
+#####
+
 # 1. Write a program that takes a digit as an input and returns the corresponding word.
 # Example: Input is 1 and program returns “one"
 # Method 1: Using 3 Rule Force
@@ -101,7 +103,7 @@ list1 = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight',
 num = int(input('Enter a number 0-9: '))
 print(list1[num])
 
-
+'''
 # 2. Simulate the “Rock Paper Scissors” game.
 import random
 # rand_num = random.random() # Ranges from zero to one
@@ -137,7 +139,6 @@ elif user_move == 'scissors':
     else:
         result = 'You Suck!'
 print(f'You picked {user_move}. Computer picked {comp_move}. {result}')
-'''
 # 3. Write a program that takes year as input and checks whether the given year is leap or not.
 yeah = 2020
 print(yeah%4) # Percent(%) gives the remainder
@@ -153,5 +154,4 @@ print('Welcome to Treasure Island. Your mission is to find the booty. And then g
 dir1 = int(input('Where should you go first? left or right: '))
 
 if dir1 == 'left':
-    
 '''

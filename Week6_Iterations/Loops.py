@@ -101,7 +101,8 @@ for i in range(101): # 1+2+3+4+5...
     print('after adding: ', sum)
 
 print(sum)
-'''
+
+
 #
 # ########### MULTIPLICATION TABLE
 # num = int(input('Enter a number: '))
@@ -114,12 +115,12 @@ print(sum)
 #     for letter in 'abc':
 #         print(num, letter) # Prints a letter for each number.
 
-rows = int(input('Number of rows: '))
-
-for i in range(1, rows + 1): # Makes rows of numbers.
-    for j in range(1, i + 1):
-        print(j, end=' ')
-    print()
-
-rows = int(input('Number of rows: '))
-
+# rows = int(input('Number of rows: '))
+#
+# for i in range(1, rows + 1): # Makes rows of numbers.
+#     for j in range(1, i + 1):
+#         print(j, end=' ')
+#     print()
+#
+# rows = int(input('Number of rows: '))
+'''

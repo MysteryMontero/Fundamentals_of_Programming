@@ -2,11 +2,11 @@
 # # Iterations means repeating the same thing; Loops.
 # ##### WHILE LOOP
 #
-# x = 1
-# while x < 5: # loop variable- x
-#     print(x)
-#     x = x + 1 # Adds 1 to every loops. Can also do x += 1
-#
+x = 1
+while x < 5: # loop variable- x
+    print(x)
+    x = x + 1 # Adds 1 to every loops. Can also do x += 1
+
 # y = 1
 # while y <= 10:
 #     print(y)

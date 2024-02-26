@@ -47,12 +47,14 @@
 # print("Symbols:", symbol)
 
 ### Problem 3
-target = 13
-
-guess = input("Enter a number between 1 and 20: ")
-if guess > 13 or guess < 13:
-    print('Nope')
-elif guess == 13:
-    print('Yes')
-else:
-    print('Nope')
+# target = random.random(1, 100)
+# user_guess = input ('')
+# target = 13
+#
+# guess = input("Enter a number between 1 and 20: ")
+# if guess > 13 or guess < 13:
+#     print('Nope')
+# elif guess == 13:
+#     print('Yes')
+# else:
+#     print('Nope')

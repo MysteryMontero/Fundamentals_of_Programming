@@ -18,18 +18,18 @@
 # Logical errors are handled by the programmer/dev.
 
 ##### 1
-# try:
-#     a = int(input('Enter the first number: '))
-#     b = int(input('Enter the second number: '))
-#     result = a / b
-#     print(result) # Will print if no excepts/errors are met.
-# except ZeroDivisionError as e:
-#     print('Something went wrong-', e)
-# except ValueError as e:
-#     print("Something went wrong-", e)
-# except Exception as e:
-#     print("Something went wrong-", e)
-# print('End')
+try:
+    a = int(input('Enter the first number: '))
+    b = int(input('Enter the second number: '))
+    result = a / b
+    print(result) # Will print if no excepts/errors are met.
+except ZeroDivisionError as e:
+    print('Something went wrong-', e)
+except ValueError as e:
+    print("Something went wrong-", e)
+except Exception as e:
+    print("Something went wrong-", e)
+print('End')
 
 ##### 2 ELSE BLOCK
 # try:

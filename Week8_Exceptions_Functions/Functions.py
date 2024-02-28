@@ -20,24 +20,45 @@
 
 
 ##### 2
+# def checkEven(num):
+#     result = ''
+#     if num % 2 == 0:
+#         result = True
+#     else:
+#         result = False
+#     return result
+#
+# print(checkEven(4))
+# print(checkEven(9))
+#
+# is_even = checkEven(1242454675673452345)
+# print(is_even)
+#
+# print("Hello")
+# import random
+# randNum = random.random()
+
+
+
+# Palindrome- Reads the same backwards. EX: level, racecar, mom.
+# Anagrams- Two words that have same letters but have a different order. EX: life and file, live and evil, god and dog.
+
+# efil == efil TRUE
+# efil == efiil FALSE
+
+# sort() function
+# life = file
+#
+# sorted(efil)
+
 def checkEven(num):
     result = ''
-    if num % 2 == 0:
+    if 'life' == 'file':
         result = True
     else:
         result = False
     return result
 
-print(checkEven(4))
-print(checkEven(9))
-
-is_even = checkEven(1242454675673452345)
-print(is_even)
-
-print("Hello")
-import random
-randNum = random.random()
-
-# Palindrome: EX: level, race car, mom.
-# Anagrams- Two words that have same letters but have a diffeent order. EX: life and file, live and evil, god and dog.
-
+# list = ['l,' 'i,' 'f,' 'e']
+# list.sort()
+# print(list)

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Pycharm folder.iml" filepath="$PROJECT_DIR$/.idea/Pycharm folder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week11_lcs_Tabulations/.idea/Week11_lcs_Tabulations.iml" filepath="$PROJECT_DIR$/Week11_lcs_Tabulations/.idea/Week11_lcs_Tabulations.iml" />
       <module fileurl="file://$PROJECT_DIR$/Week9_Recursions/.idea/Week9_Recursions.iml" filepath="$PROJECT_DIR$/Week9_Recursions/.idea/Week9_Recursions.iml" />
     </modules>
   </component>

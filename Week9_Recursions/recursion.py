@@ -138,7 +138,7 @@
 # list2 = 18: [18, 18]
 # list3 > 18: [28]
 
-# Repeat AGAIN
+# Repeat AGAIN!
 # Step 1: [3, 11] divide by 2 (just duplicate the last element) = [3, 11, 11] median = 11
 # list 1 < 11: [3]
 # list 2 = 11: [11]
@@ -173,28 +173,32 @@
 
 ##### IN CODE FORM #####
 ##### YES, IT IS COMPLICATED, SO REMEMBER IT #####
-import statistics
+# import statistics
+#
+# def quickSort(num_list):
+#     if len(num_list) <= 1:
+#         return num_list
+#     else:
+#         # find median
+#         median_value = statistics.median([num_list[0],
+#                                           num_list[len(num_list)//2],
+#                                           num_list[-1]]
+#                                          )
+#         left_list = []
+#         middle_list = []
+#         right_list = []
+#         for i in num_list:
+#             if i < median_value:
+#                 left_list.append(i)
+#             elif i > median_value:
+#                 right_list.append(i)
+#             else:
+#                 middle_list.append(i)
+#         return(quickSort(left_list) + middle_list + quickSort(right_list))
+# sorted_list = quickSort([31, 18, 72, 79, 3, 18, 92, 11, 44, 56, 41, 28])
+# print(sorted_list)
 
-def quickSort(num_list):
-    if len(num_list) <= 1:
-        return num_list
-    else:
-        # find median
-        median_value = statistics.median([num_list[0],
-                                          num_list[len(num_list)//2],
-                                          num_list[-1]]
-                                         )
-        left_list = []
-        middle_list = []
-        right_list = []
-        for i in num_list:
-            if i < median_value:
-                left_list.append(i)
-            elif i > median_value:
-                right_list.append(i)
-            else:
-                middle_list.append(i)
-        return(quickSort(left_list) + middle_list + quickSort(right_list))
-sorted_list = quickSort([31, 18, 72, 79, 3, 18, 92, 11, 44, 56, 41, 28])
-print(sorted_list)
+
+# Memoization: Storing temporary results.
+# Tabulation: Loops.
 

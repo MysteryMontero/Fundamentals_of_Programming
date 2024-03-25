@@ -4,7 +4,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Week9_Recursions" />
-    <orderEntry type="module" module-name="Week11_lcs_Tabulations" />
   </component>
 </module>

@@ -24,4 +24,3 @@ def find_lcs(x, y):
 str1 = 'stone'
 str2 = 'longest'
 print(find_lcs(str1, str2)) # Gives the answer
-

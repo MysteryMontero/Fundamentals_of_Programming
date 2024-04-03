@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Week12_Lambda/.idea/Week12_Lambda.iml" filepath="$PROJECT_DIR$/../Week12_Lambda/.idea/Week12_Lambda.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/Week13_Modules.iml" filepath="$PROJECT_DIR$/.idea/Week13_Modules.iml" />
-    </modules>
-  </component>
-</project>
